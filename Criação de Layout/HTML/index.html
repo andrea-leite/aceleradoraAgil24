@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" >
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <section class="principal">
+        <header class="menu"> 
+            <div class="menu__imagem">
+                <img class="imagem" src="/assets/img/dog.png" alt="Rosto de cachorro desenhado.">
+            </div>
+            <div class="menu__texto">                
+                <h2 class="subtitulo">Cuidados com seu Pet</h2>
+                <p>"Animais de estimação são criaturas que nos cativam pela graciosidade, companheirismo e são muito mais do que boas companhias. Eles dividem conosco o privilégio de existir!"</p> 
+                <h6>"Silvana Lance" </h6>                    
+                <nav class="menu__links">
+                    <ul class="links">
+                        <li><a href=”#”>Beleza Pet</a></li>
+                        <li><a href=”#”>Farmácia Pet</a></li>
+                        <li><a href=”#”>Pet Hotel</a></li>
+                        <li><a href=”#”>Pet Saúde</a></li>
+                    </ul>
+                </nav>        
+            </div>           
+        </header>              
+        <section class="container">
+            <div class="titulo__lista">
+                <h2 class="titulo">Lista de tarefas</h2>            
+            </div>
+            <div class="tarefas">
+                <div class="box__dia">
+                    <h2 class="subtitulo">Dia</h2>    
+                    <form id="formDia">
+                        <input id="inputDia" type="text" placeholder="Adicionar tarefa..."/>
+                        <button type="submit">Adicionar</button>
+                    </form>                    
+                    <ul id="listDia"></ul>                   
+                </div>
+                <div class="box__noite">
+                    <h2 class="subtitulo">Noite</h2>    
+                    <form id="formNoite">
+                        <input id="inputNoite"  type="text" placeholder="Adicionar tarefa..."/>
+                        <button type="submit">Adicionar</button>    
+                    </form>                    
+                    <ul id="listNoite"></ul>                   
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="/JS/script.js"></script>
+</body>
+<footer>
+    <div>
+        <h5>Desenvolvido por Andréa Leite - 2023</h5>
+    </div>
+</footer>
+</html>
